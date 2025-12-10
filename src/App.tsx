@@ -1,5 +1,6 @@
 import HeroSection from "./components/sections/HeroSection"
 import ProjectsSection from "./components/sections/projects/ProjectsSection"
+import SkillsSection from "./components/sections/skills/SkillsSection"
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <main>
         <HeroSection />
         <ProjectsSection />
+        <SkillsSection />
       </main>
     </>
   )

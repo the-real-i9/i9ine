@@ -7,7 +7,7 @@ function ProjectsSection() {
   const [showMore, setShowMore] = useState(false)
 
   return (
-    <section className="w-full pt-24 pb-20">
+    <section className="w-full pt-24 pb-10">
       <div className="w-full max-w-7xl mx-auto px-5">
         <SectionHeader title="Projects" />
 

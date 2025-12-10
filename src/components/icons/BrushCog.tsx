@@ -21,8 +21,8 @@ function BrushCog({ className }: { className: string }) {
           y2="70.3636"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#D79921" />
-          <stop offset="1" stop-color="#CC241D" />
+          <stop stopColor="#D79921" />
+          <stop offset="1" stopColor="#CC241D" />
         </linearGradient>
       </defs>
     </svg>

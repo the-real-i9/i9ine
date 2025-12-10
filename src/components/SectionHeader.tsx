@@ -1,8 +1,14 @@
 import BrushCog from "./icons/BrushCog"
 
-function SectionHeader({ title }: { title: string }) {
+function SectionHeader({
+  title,
+  className,
+}: {
+  title: string
+  className?: string
+}) {
   return (
-    <header className="flex justify-center pl-[30px] mb-18">
+    <header className={`flex justify-center pl-[30px] mb-18 ${className}`}>
       <div className="relative">
         <h2 className="font-bold text-[40px]">
           {title}
