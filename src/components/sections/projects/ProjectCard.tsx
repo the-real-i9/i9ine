@@ -22,7 +22,7 @@ function ProjectCard(p: Props) {
         </div>
         <div className="text-xl font-bold text-bgray-300 mb-1">{p.title}</div>
         <p className="text-sm text-bgray-300">{p.description}</p>
-        <div className="mt-8 mb-1 flex justify-between">
+        <div className="mt-8 mb-1 flex justify-between items-center">
           <div className="space-x-1">
             {p.tags.map((tag, i) => (
               <span

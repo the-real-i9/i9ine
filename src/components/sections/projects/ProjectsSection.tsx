@@ -20,7 +20,7 @@ function ProjectsSection() {
           user auth, posts, comments, media uploads, real-time notifications,
           and scalable architecture using PostgreSQL, Neo4j, Redis, and Docker."
             tags={["API"]}
-            githubURL="https:github.com/the-real-i9/i9lyfe-server"
+            githubURL="https://github.com/the-real-i9/i9lyfe-server"
           />
           <ProjectCard
             thumbnail={dummyImg}
@@ -30,7 +30,7 @@ function ProjectsSection() {
           user auth, posts, comments, media uploads, real-time notifications,
           and scalable architecture using PostgreSQL, Neo4j, Redis, and Docker."
             tags={["API"]}
-            githubURL="https:github.com/the-real-i9/i9chat-server"
+            githubURL="https://github.com/the-real-i9/i9chat-server"
           />
           <ProjectCard
             thumbnail={dummyImg}
@@ -40,7 +40,7 @@ function ProjectsSection() {
           user auth, posts, comments, media uploads, real-time notifications,
           and scalable architecture using PostgreSQL, Neo4j, Redis, and Docker."
             tags={["API"]}
-            githubURL="https:github.com/the-real-i9/i9rfs-server"
+            githubURL="https://github.com/the-real-i9/i9rfs-server"
           />
         </div>
 
