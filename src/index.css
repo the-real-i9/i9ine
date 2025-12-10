@@ -1,68 +1,102 @@
-:root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
+@import "tailwindcss";
+
+@font-face {
+  font-family: Kalam;
+  src: url("./assets/fonts/Kalam-Light.woff2") format("woff2");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Kalam;
+  src: url("./assets/fonts/Kalam-Regular.woff2") format("woff2");
   font-weight: 400;
-
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-style: normal;
 }
 
-a {
+@font-face {
+  font-family: Kalam;
+  src: url("./assets/fonts/Kalam-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Inter;
+  src: url("./assets/fonts/Inter-Thin.woff2") format("woff2");
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Inter;
+  src: url("./assets/fonts/Inter-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Inter;
+  src: url("./assets/fonts/Inter-Medium.woff2") format("woff2");
   font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
+  font-style: normal;
 }
 
-body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+@font-face {
+  font-family: Inter;
+  src: url("./assets/fonts/Inter-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
 }
 
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+@font-face {
+  font-family: Inter;
+  src: url("./assets/fonts/Inter-ExtraBold.woff2") format("woff2");
+  font-weight: 800;
+  font-style: normal;
 }
 
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
-}
-
-@media (prefers-color-scheme: light) {
+@layer base {
   :root {
-    color: #213547;
-    background-color: #ffffff;
+    @apply font-prim bg-bgray-900;
+
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
   }
-  a:hover {
-    color: #747bff;
+
+  body {
+    @apply text-white;
   }
+
+  a {
+    cursor: pointer;
+  }
+
   button {
-    background-color: #f9f9f9;
+    cursor: pointer;
+
+    font-family: inherit;
   }
+}
+
+@layer components {
+}
+
+@theme {
+  --font-prim: Inter, system-ui;
+  --font-casual: Kalam;
+
+  --color-byellow: hsl(40, 73%, 49%);
+  --color-bred: hsl(2, 75%, 46%);
+
+  --color-bgray-200: hsl(0, 0%, 53%);
+  --color-bgray-300: hsl(0, 0%, 44%);
+  --color-bgray-400: hsl(0, 0%, 18%);
+  --color-bgray-500: hsl(0, 0%, 10%);
+  --color-bgray-600: hsl(0, 0%, 8%);
+  --color-bgray-700: hsl(0, 0%, 6%);
+  --color-bgray-800: hsl(0, 0%, 5%);
+  --color-bgray-900: hsl(0, 0%, 3%);
 }
