@@ -2,6 +2,8 @@ import { useState } from "react"
 
 import PauseIcon from "../icons/PauseIcon"
 import PlayIcon from "../icons/PlayIcon"
+import HeroBrushCogTL from "../icons/HeroBrushCogTL"
+import HeroBrushCogTR from "../icons/HeroBrushCogTR"
 
 function HeroSection() {
   const [bgVideoPlaying, setBgVideoPlaying] = useState(true)
@@ -9,6 +11,8 @@ function HeroSection() {
   return (
     <section className="w-full relative h-screen max-w-[1600px] max-h-[900px] mx-auto bg-[url(/bg-video.png)] bg-no-repeat bg-cover bg-center">
       <div className="overlay absolute inset-0 bg-bgray-900/85" />
+      <HeroBrushCogTL className="absolute top-0 left-0" />
+      <HeroBrushCogTR className="absolute top-0 right-0" />
       <div className="hero relative z-0 w-full px-8 mx-auto h-full flex flex-col items-center justify-center">
         <div className="text-8xl">
           <span className="font-casual font-light">I&#x2019;m</span>
