@@ -1,4 +1,4 @@
-import YouTubeIcon from "../../icons/YouTubeIcon"
+import YouTubeIcon from "../../icons/socials/YouTubeIcon"
 
 type Props = {
   thumbnail: string
@@ -9,7 +9,7 @@ type Props = {
 
 function VideoCard(p: Props) {
   return (
-    <div className="video-card group w-[590px] flex p-2 max-h-40 space-x-2 bg-bgray-800 rounded-2xl hover:shadow-[0px_4px_4px] hover:shadow-black/25 hover:-translate-y-1 transition-all">
+    <div className="video-card group w-[590px] flex p-2 max-h-40 space-x-2 bg-bgray-800 rounded-2xl hover:shadow-[0px_4px_4px] hover:shadow-black/25 hover:-translate-y-1 transition-transform">
       <img
         className="video-pic w-64 aspect-video rounded-xl"
         src={p.thumbnail}
@@ -31,7 +31,7 @@ function VideoCard(p: Props) {
             href={p.ytURL}
             target="_blank"
           >
-            <YouTubeIcon className="fill-bgray-500 w-5 group-hover:fill-bgray-400" />
+            <YouTubeIcon className="fill-bgray-500 w-6 group-hover:fill-bgray-400" />
             <span className="font-casual text-bgray-400 text-xs -mb-0.5 group-hover:bg-linear-to-r from-byellow to-bred group-hover:text-transparent bg-clip-text">
               Watch on YouTube
             </span>

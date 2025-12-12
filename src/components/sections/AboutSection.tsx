@@ -3,7 +3,7 @@ import BrushPicFrame from "../icons/BrushPicFrame"
 import SectionHeader from "../SectionHeader"
 
 function AboutSection() {
-  const [showMore, setShowMore] = useState(false)
+  const [readMore, setReadMore] = useState(false)
 
   return (
     <section id="about" className="w-full pt-24 pb-10">
@@ -48,10 +48,10 @@ function AboutSection() {
               algorithms to solve real-world problems, challenge me to think
               about how to design or re-design a solution to meet specific user
               or business demands, and sometimes allow me explore and understand
-              real-world domains outside of my own field{showMore ? "." : "..."}
+              real-world domains outside of my own field{readMore ? "." : "..."}
             </p>
             <br />
-            {showMore && (
+            {readMore && (
               <>
                 <p>
                   My long-term direction is independent engineering and
@@ -74,13 +74,13 @@ function AboutSection() {
               </>
             )}
             <button
-              onClick={() => setShowMore((v) => !v)}
+              onClick={() => setReadMore((v) => !v)}
               className="block w-fit font-bold text-xs bg-linear-to-r from-byellow from-70% to-bred text-transparent bg-clip-text"
             >
-              {!showMore ? (
-                <span>Show more...</span>
+              {!readMore ? (
+                <span>Read more...</span>
               ) : (
-                <span>Show less&lt;&lt;&lt;</span>
+                <span>Read less&lt;&lt;&lt;</span>
               )}
             </button>
           </div>

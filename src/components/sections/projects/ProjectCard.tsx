@@ -1,4 +1,4 @@
-import GitHubIcon from "../../icons/GitHubIcon"
+import GitHubIcon from "../../icons/socials/GitHubIcon"
 
 type Props = {
   thumbnail: string
@@ -38,7 +38,7 @@ function ProjectCard(p: Props) {
             href={p.githubURL}
             target="_blank"
           >
-            <GitHubIcon className="fill-bgray-500 w-5 group-hover:fill-bgray-400" />
+            <GitHubIcon className="fill-bgray-500 w-6 group-hover:fill-bgray-400" />
             <span className="font-casual text-bgray-400 text-xs -mb-1 group-hover:bg-linear-to-r from-byellow to-bred group-hover:text-transparent bg-clip-text">
               View on GitHub
             </span>
