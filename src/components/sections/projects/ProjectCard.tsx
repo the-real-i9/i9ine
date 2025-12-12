@@ -20,14 +20,14 @@ function ProjectCard(p: Props) {
         <div className="w-fit font-casual font-bold bg-linear-to-b text-transparent from-byellow to-bred bg-clip-text">
           {p.name}
         </div>
-        <div className="text-xl font-bold text-bgray-300 mb-1">{p.title}</div>
-        <p className="text-sm text-bgray-300">{p.description}</p>
+        <div className="text-xl font-bold text-bgray-200 mb-1">{p.title}</div>
+        <p className="text-sm text-bgray-200">{p.description}</p>
         <div className="mt-8 mb-1 flex justify-between items-center">
           <div className="space-x-1">
             {p.tags.map((tag, i) => (
               <span
                 key={`${p.name}-ptag-${i}`}
-                className="bg-bgray-600 text-bgray-200 py-1.5 px-3 text-xs font-medium rounded-full"
+                className="bg-bgray-600 text-bgray-100 py-1.5 px-3 text-xs font-medium rounded-full"
               >
                 {tag}
               </span>

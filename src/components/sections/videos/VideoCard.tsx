@@ -15,15 +15,15 @@ function VideoCard(p: Props) {
         src={p.thumbnail}
       />
       <div className="flex flex-col">
-        <div className="text-sm font-bold text-bgray-300 mb-1 mt-1">
+        <div className="text-sm font-bold text-bgray-200 mb-1 mt-1">
           {p.title}
           <span className="bg-linear-to-br from-byellow to-bred to-50% text-transparent bg-clip-text">
             ***
           </span>
         </div>
-        <p className="text-xs text-bgray-300">{p.description}</p>
+        <p className="text-xs text-bgray-200">{p.description}</p>
         <div className="mt-auto mb-2 flex justify-between items-center">
-          <div className="text-bgray-300 text-xs">
+          <div className="text-bgray-200 text-xs">
             <span className="font-bold">Duration:</span> 5mins.
           </div>
           <a

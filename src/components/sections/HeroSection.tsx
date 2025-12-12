@@ -8,11 +8,11 @@ function HeroSection() {
 
   return (
     <section className="w-full relative h-screen max-w-[1600px] max-h-[900px] mx-auto bg-[url(/bg-video.png)] bg-no-repeat bg-cover bg-center">
-      <div className="overlay absolute inset-0 bg-bgray-900/90" />
-      <div className="hero relative z-0 w-full px-12 mx-auto h-full flex flex-col items-center justify-center">
+      <div className="overlay absolute inset-0 bg-bgray-900/85" />
+      <div className="hero relative z-0 w-full px-8 mx-auto h-full flex flex-col items-center justify-center">
         <div className="text-8xl">
           <span className="font-casual font-light">I&#x2019;m</span>
-          <span className=""> </span>
+          <span className="-mr-1"> </span>
           <span className="font-extrabold bg-clip-text bg-linear-to-r from-byellow to-bred text-transparent">
             i9ine
           </span>
@@ -21,7 +21,7 @@ function HeroSection() {
           <span className="font-bold">Backend </span>
           <span className="font-thin">Software Engineer</span>
         </div>
-        <p className="text-center mt-4 text-bgray-300">
+        <p className="text-center mt-4 text-bgray-200">
           I build scalable, secure backend APIs, services, and systems
           <br />
           that solve real-world problems while generating measurable business
@@ -29,8 +29,8 @@ function HeroSection() {
         </p>
 
         <div className="space-x-6 mt-11 mb-8.5">
-          <button className="getintouch font-bold w-[225px] h-[60px] bg-bgray-700 rounded-full shadow-[0px_4px_4px] shadow-black/25">
-            <span className="text-transparent bg-clip-text bg-linear-to-r from-byellow to-bred">
+          <button className="group getintouch font-bold w-[225px] h-[60px] bg-bgray-700 rounded-full shadow-[0px_4px_4px] shadow-black/25">
+            <span className="text-transparent bg-clip-text bg-linear-to-r from-byellow group-hover:from-80% to-bred">
               Get in touch.
             </span>
           </button>
@@ -51,7 +51,7 @@ function HeroSection() {
                 <PlayIcon className="fill-white w-3 aspect-square mx-auto" />
               )}
             </button>
-            <div className="text-sm text-bgray-200">
+            <div className="text-sm text-bgray-100">
               <strong>Now playing:</strong> Implementing a reply message
               feature.
             </div>

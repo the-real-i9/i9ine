@@ -56,6 +56,13 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: Inter;
+  src: url("./assets/fonts/Inter-Black.woff2") format("woff2");
+  font-weight: 900;
+  font-style: normal;
+}
+
 @layer base {
   :root {
     @apply font-prim bg-bgray-900;
@@ -91,8 +98,9 @@
   --color-byellow: hsl(40, 73%, 49%);
   --color-bred: hsl(2, 75%, 46%);
 
-  --color-bgray-200: hsl(0, 0%, 53%);
-  --color-bgray-300: hsl(0, 0%, 44%);
+  --color-bgray-100: hsl(0, 0%, 53%);
+  --color-bgray-200: hsl(0, 0%, 44%);
+  --color-bgray-300: hsl(0, 0%, 23%);
   --color-bgray-400: hsl(0, 0%, 18%);
   --color-bgray-500: hsl(0, 0%, 10%);
   --color-bgray-600: hsl(0, 0%, 8%);
