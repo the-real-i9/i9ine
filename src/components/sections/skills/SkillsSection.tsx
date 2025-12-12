@@ -4,7 +4,7 @@ import SkillCat_Languages from "./skillcats/SkillCat_Languages"
 
 function SkillsSection() {
   return (
-    <section id="skills" className="w-full pt-24 pb-10">
+    <section id="skills" className="w-full pt-24 pb-14">
       <div className="w-full max-w-7xl mx-auto px-10">
         <SectionHeader title="Skills" className="mb-26" />
 

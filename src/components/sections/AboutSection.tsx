@@ -6,9 +6,9 @@ function AboutSection() {
   const [readMore, setReadMore] = useState(false)
 
   return (
-    <section id="about" className="w-full pt-24 pb-10">
+    <section id="about" className="w-full pt-24 pb-14">
       <div className="w-full max-w-7xl mx-auto px-5">
-        <SectionHeader title="About Me" className="mb-20" />
+        <SectionHeader title="About Me" />
 
         <div className="flex mx-auto w-fit space-x-12">
           <div className="relative w-96 h-96 flex items-center justify-center">
