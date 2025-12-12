@@ -4,7 +4,7 @@ import XIcon from "./icons/socials/XIcon"
 
 function WebsiteFooter() {
   return (
-    <footer className="fixed bottom-4 w-full z-2">
+    <footer className="website-footer fixed -bottom-10 w-full z-2 transition-all duration-500">
       <div className="w-fit mx-auto flex items-center bg-white px-4 py-2 rounded-full shadow-lg shadow-black text-black text-xs space-x-2">
         <span>
           Designed and developed by <strong>i9ine ♥️</strong>

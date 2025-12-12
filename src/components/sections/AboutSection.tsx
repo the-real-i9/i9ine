@@ -75,7 +75,7 @@ function AboutSection() {
             )}
             <button
               onClick={() => setReadMore((v) => !v)}
-              className="block w-fit font-bold text-xs bg-linear-to-r from-byellow from-70% to-bred text-transparent bg-clip-text"
+              className="font-bold text-xs bg-linear-to-r from-byellow from-70% to-bred text-transparent bg-clip-text"
             >
               {!readMore ? (
                 <span>Read more...</span>

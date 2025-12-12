@@ -5,7 +5,7 @@ function WebsiteHeader() {
   const [activeRef, setActiveRef] = useState("#home")
 
   return (
-    <header className="fixed top-4 w-full z-2">
+    <header className="website-header fixed top-4 w-full z-2 transition-all duration-500">
       <div className="w-fit mx-auto flex items-center bg-white p-1.5 rounded-full shadow-lg shadow-black">
         <div className="w-10 pl-0.5 aspect-square rounded-full bg-bgray-900 flex justify-center items-center">
           <Logoi9 />
