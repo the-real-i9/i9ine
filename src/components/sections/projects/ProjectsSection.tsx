@@ -16,9 +16,7 @@ function ProjectsSection() {
             thumbnail={dummyImg}
             name="i9lyfe"
             title="Social Media API"
-            description="A high-performance social media backend API built in Go, featuring
-          user auth, posts, comments, media uploads, real-time notifications,
-          and scalable architecture using PostgreSQL, Neo4j, Redis, and Docker."
+            description="A full-fledged social media API built in Go, featuring user auth, content sharing, content discovery and user interaction, real-time notifications, user following, user chat, and scalable architecture using PostgreSQL, Neo4j, Redis, and GCS."
             tags={["API"]}
             githubURL="https://github.com/the-real-i9/i9lyfe-server"
           />
@@ -26,19 +24,15 @@ function ProjectsSection() {
             thumbnail={dummyImg}
             name="i9chat"
             title="Chat App API"
-            description="A high-performance social media backend API built in Go, featuring
-          user auth, posts, comments, media uploads, real-time notifications,
-          and scalable architecture using PostgreSQL, Neo4j, Redis, and Docker."
+            description="A full-fledged chat and messaging API built in Go, featuring user auth, direct and group messaging using text or voice, media sharing, group creation and management, media sharing, user search, and scalable architecture using Neo4j, Redis, and GCS."
             tags={["API"]}
             githubURL="https://github.com/the-real-i9/i9chat-server"
           />
           <ProjectCard
             thumbnail={dummyImg}
-            name="i9vfs"
-            title="Virtual FS API"
-            description="A high-performance social media backend API built in Go, featuring
-          user auth, posts, comments, media uploads, real-time notifications,
-          and scalable architecture using PostgreSQL, Neo4j, Redis, and Docker."
+            name="i9rfs"
+            title="Remote FS API"
+            description="A real-time remote file system API built in Node.js featuring user auth, file system operations, user-private directory tree and file system access, file metadata, read/write permissions, and cloud object storage using WebSockets, Neo4j, Redis, and GCS."
             tags={["API"]}
             githubURL="https://github.com/the-real-i9/i9rfs-server"
           />
