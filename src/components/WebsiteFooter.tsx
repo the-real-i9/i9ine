@@ -14,7 +14,7 @@ function WebsiteFooter() {
           <a href="https://github.com/the-real-i9" className="group">
             <GitHubIcon className="w-5 fill-black group-hover:fill-bgray-300" />
           </a>
-          <a href="https://linkedin.com" className="group">
+          <a href="https://linkedin.com/in/samueli9ine" className="group">
             <LinkedinIcon className="w-5 fill-black group-hover:fill-bgray-300" />
           </a>
           <a href="https://x.com" className="group">

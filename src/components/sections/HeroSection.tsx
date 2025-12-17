@@ -33,13 +33,25 @@ function HeroSection() {
         </p>
 
         <div className="space-x-6 mt-11 mb-8.5">
-          <button className="group getintouch font-bold w-[225px] h-[60px] bg-bgray-700 rounded-full shadow-[0px_4px_4px] shadow-black/25">
+          <button
+            title="Let's talk."
+            onClick={() => {
+              window.open("https://wa.me/+2348106545254", "_blank")
+            }}
+            className="group getintouch font-bold w-[225px] h-[60px] bg-bgray-700 rounded-full shadow-[0px_4px_4px] shadow-black/25"
+          >
             <span className="text-transparent bg-clip-text bg-linear-to-r from-byellow group-hover:from-80% to-bred">
               Get in touch.
             </span>
           </button>
-          <button className="downloadcv font-bold w-[225px] h-[60px] bg-bgray-900/60 bg-[url(/gbord.svg)] bg-no-repeat bg-contain bg-center rounded-full">
-            Download CV
+          <button
+            onClick={() => {
+              window.open("mailto:oluwarinolasam@gmail.com", "_blank")
+            }}
+            title="Describe your problem, constraints, and goals."
+            className="font-bold w-[225px] h-[60px] bg-bgray-900/60 bg-[url(/gbord.svg)] bg-no-repeat bg-contain bg-center rounded-full"
+          >
+            Write me.
           </button>
         </div>
 

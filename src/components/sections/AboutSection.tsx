@@ -19,7 +19,7 @@ function AboutSection() {
           </div>
           <div className="text-sm max-w-[600px]">
             <p>
-              I'm <strong>Samuel "i9ine" Oluwarinola</strong>.
+              I'm <strong>Samuel &#x201c;i9ine&#x201d; Oluwarinola</strong>.
             </p>
             <br />
             <p>
@@ -40,7 +40,7 @@ function AboutSection() {
               similar in structure to WhatsApp or Discord, and a virtual file
               system built with Neo4j and GCS; all constantly undergoing feature
               improvements, and performance tuning. As a hobby, I also explore
-              the foundations and internals with C.
+              system foundations and internals with C.
             </p>
             <br />
             <p>
