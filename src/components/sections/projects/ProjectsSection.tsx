@@ -31,7 +31,7 @@ function ProjectsSection() {
             thumbnail={dummyImg}
             name="i9rfs"
             title="Remote FS API"
-            description="A real-time remote file system API built in Node.js featuring user auth, file system operations, user-private directory tree and file system access, file metadata, read/write permissions, and cloud object storage using WebSockets, Neo4j, Redis, and GCS."
+            description="A remote file system API built in Node.js featuring user auth, real-time file system operations, user-private directory tree and file system access, file metadata, read/write permissions, and cloud object storage using WebSockets, Neo4j, and GCS."
             tags={["API", "Node.js"]}
             githubURL="https://github.com/the-real-i9/i9rfs-server"
           />
