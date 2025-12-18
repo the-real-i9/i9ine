@@ -28,18 +28,19 @@ function AboutSection() {
               revolves around backend architecture design, the problem-domain
               algorithms, data flow, and the kind of engineering that rewards
               clarity and careful thinking. I work with Go and
-              JavaScript/Node.js, and I spend a lot of time optimizing APIs for
-              performance, scalability, edge cases, and user experience;
-              ensuring robustness under real-world constraints and helping
-              businesses generate measurable value.
+              JavaScript/Node.js, and I spend a significant amount of time
+              optimizing APIs for performance, scalability, edge cases, and user
+              experience, ensuring robustness under real-world constraints and
+              helping businesses generate measurable value.
             </p>
             <br />
             <p>
               I&#x2019;ve designed and implemented non-trivial backend projects,
-              including a feature-rich social media API, a real-time chat system
-              similar in structure to WhatsApp or Discord, and a virtual file
-              system built with Neo4j and GCS; all constantly undergoing feature
-              improvements, and performance tuning. As a hobby, I also explore
+              including a feature-rich social media API, a full-fledged
+              real-time chat system, and a remote file system built with Neo4j
+              and GCS, similar in structure to Instagram, WhatsApp, and Google
+              Drive, respectively, all constantly undergoing feature
+              improvements and performance tuning. As a hobby, I also explore
               system foundations and internals with C.
             </p>
             <br />
@@ -47,8 +48,9 @@ function AboutSection() {
               I enjoy projects that allow me to apply generic or domain-specific
               algorithms to solve real-world problems, challenge me to think
               about how to design or re-design a solution to meet specific user
-              or business demands, and sometimes allow me explore and understand
-              real-world domains outside of my own field{readMore ? "." : "..."}
+              or business demands, and sometimes allow me to explore and
+              understand real-world domains outside of my own field
+              {readMore ? "." : "..."}
             </p>
             <br />
             {readMore && (
