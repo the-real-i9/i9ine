@@ -48,10 +48,10 @@ function HeroSection() {
             onClick={() => {
               window.open("mailto:oluwarinolasam@gmail.com", "_blank")
             }}
-            title="Describe your problem, constraints, and goals."
-            className="font-bold w-[225px] h-[60px] bg-bgray-900/60 bg-[url(/gbord.svg)] bg-no-repeat bg-contain bg-center rounded-full"
+            title="Let's get right into it. Describe your problem, constraints, and goals."
+            className="font-bold text-sm w-[225px] h-[60px] bg-bgray-900/60 bg-[url(/gbord.svg)] bg-no-repeat bg-contain bg-center rounded-full"
           >
-            Write me.
+            Present your problem.
           </button>
         </div>
 
