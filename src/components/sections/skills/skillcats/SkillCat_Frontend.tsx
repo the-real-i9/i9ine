@@ -41,9 +41,6 @@ function SkillCat_Frontend() {
             skillName: "Figma",
             skillIcon: () => <FigmaIcon className="w-4.5" />,
           },
-          {
-            skillName: "Graphics Design (Theory & Practice)",
-          },
         ].map(({ skillName, skillIcon }, index) => (
           <SkillSnippet
             key={`skill-${index}-cat-frontend`}

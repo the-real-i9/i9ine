@@ -23,6 +23,9 @@ function SkillCat_Others() {
           {
             skillName: "Communication",
           },
+          {
+            skillName: "Graphics Design (Theory & Practice)",
+          },
         ].map(({ skillName }, index) => (
           <SkillSnippet
             key={`skill-${index}-cat-others`}
