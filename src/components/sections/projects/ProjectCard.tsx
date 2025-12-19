@@ -17,7 +17,7 @@ function ProjectCard(p: Props) {
           className="project-pic w-full aspect-video rounded-2xl shadow-[0px_4px_4px] shadow-black/25"
           src={p.thumbnail}
         />
-        <div className="bg-linear-to-br from-byellow to-bred opacity-30 absolute inset-0 rounded-2xl" />
+        <div className="bg-bgray-800 opacity-30 absolute inset-0 rounded-2xl" />
       </div>
       <div className="mt-6">
         <div className="w-fit font-casual font-bold bg-linear-to-b text-transparent from-byellow to-bred bg-clip-text">
