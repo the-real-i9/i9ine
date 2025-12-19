@@ -10,7 +10,7 @@ import SkillSnippetsWrapper from "../SkillSnippetsWrapper"
 
 function SkillCat_Languages() {
   return (
-    <div className="cat-languages w-96">
+    <div className="skill-cat cat-languages">
       <SkillCatHead catName="Languages.">
         <span className="absolute -top-3 -right-1.5 font-bold text-bgray-500">
           Runtimes.

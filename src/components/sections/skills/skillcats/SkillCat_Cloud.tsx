@@ -5,7 +5,7 @@ import SkillSnippetsWrapper from "../SkillSnippetsWrapper"
 
 function SkillCat_Cloud() {
   return (
-    <div className="cat-cloud w-96">
+    <div className="skill-cat cat-cloud">
       <SkillCatHead catName="Cloud Services.">{null}</SkillCatHead>
       <SkillSnippetsWrapper>
         {[

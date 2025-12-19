@@ -7,7 +7,7 @@ import SkillSnippetsWrapper from "../SkillSnippetsWrapper"
 
 function SkillCat_Databases() {
   return (
-    <div className="cat-databases w-96">
+    <div className="skill-cat cat-databases">
       <SkillCatHead catName="Databases.">
         <span className="absolute -top-4 -right-3 font-bold text-bgray-500">
           Query Langs.

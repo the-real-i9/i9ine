@@ -1,6 +1,7 @@
 import SectionHeader from "../../SectionHeader"
 import ProjectCard from "./ProjectCard"
 import dummyImg from "/bg-video.png"
+import i9lfethumb from "../../../assets/imgs/i9lyfe-thumb.png"
 
 function ProjectsSection() {
   // const [showMore, setShowMore] = useState(false)
@@ -12,7 +13,7 @@ function ProjectsSection() {
 
         <div className="project-cards flex justify-between flex-wrap">
           <ProjectCard
-            thumbnail={dummyImg}
+            thumbnail={i9lfethumb}
             name="i9lyfe"
             title="Social Media API"
             description="A full-fledged social media API built in Go, featuring user auth, content sharing, content discovery and user interaction, real-time notifications, user following, user chat, and scalable architecture using PostgreSQL, Neo4j, Redis, and GCS."

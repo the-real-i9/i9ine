@@ -14,7 +14,7 @@ import SkillSnippetsWrapper from "../SkillSnippetsWrapper"
 
 function SkillCat_BackDevTools() {
   return (
-    <div className="cat-back-dev-tools w-96">
+    <div className="skill-cat cat-back-dev-tools">
       <SkillCatHead catName="Backend Dev. Tools.">{null}</SkillCatHead>
       <SkillSnippetsWrapper>
         {[

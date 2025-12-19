@@ -10,7 +10,7 @@ import SkillSnippetsWrapper from "../SkillSnippetsWrapper"
 
 function SkillCat_Frontend() {
   return (
-    <div className="cat-frontend w-96">
+    <div className="skill-cat cat-frontend">
       <SkillCatHead catName="Frontend Skills & Tools.">{null}</SkillCatHead>
       <SkillSnippetsWrapper>
         {[

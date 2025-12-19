@@ -12,10 +12,13 @@ type Props = {
 function ProjectCard(p: Props) {
   return (
     <div className="project-card group p-5 w-[400px] bg-bgray-800 rounded-4xl hover:shadow-[0px_4px_4px] hover:shadow-black/25 hover:-translate-y-1 transition-all">
-      <img
-        className="project-pic w-full aspect-video rounded-2xl shadow-[0px_4px_4px] shadow-black/25"
-        src={p.thumbnail}
-      />
+      <div className="relative">
+        <img
+          className="project-pic w-full aspect-video rounded-2xl shadow-[0px_4px_4px] shadow-black/25"
+          src={p.thumbnail}
+        />
+        <div className="bg-linear-to-br from-byellow to-bred opacity-30 absolute inset-0 rounded-2xl" />
+      </div>
       <div className="mt-6">
         <div className="w-fit font-casual font-bold bg-linear-to-b text-transparent from-byellow to-bred bg-clip-text">
           {p.name}

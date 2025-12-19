@@ -4,7 +4,7 @@ import SkillSnippetsWrapper from "../SkillSnippetsWrapper"
 
 function SkillCat_Others() {
   return (
-    <div className="cat-others w-96">
+    <div className="skill-cat cat-others">
       <SkillCatHead catName="Soft Skills & Extra.">{null}</SkillCatHead>
       <SkillSnippetsWrapper>
         {[

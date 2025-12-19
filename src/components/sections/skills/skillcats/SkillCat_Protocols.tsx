@@ -7,7 +7,7 @@ import SkillSnippetsWrapper from "../SkillSnippetsWrapper"
 
 function SkillCat_Protocols() {
   return (
-    <div className="cat-protocols w-96">
+    <div className="skill-cat cat-protocols">
       <SkillCatHead catName="Protocols.">
         <span className="absolute -top-4 -right-3 font-bold text-bgray-500 text-sm">
           API Styles.

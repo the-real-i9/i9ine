@@ -89,6 +89,9 @@
 }
 
 @layer components {
+  .skill-cat {
+    @apply w-96;
+  }
 }
 
 @theme {
