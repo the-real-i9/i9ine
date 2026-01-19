@@ -1,4 +1,5 @@
 import GitHubIcon from "../../../icons/socials/GitHubIcon"
+import AsyncAPIIcon from "../../../icons/techs/AsyncAPIIcon"
 import BashIcon from "../../../icons/techs/BashIcon"
 import ChromeIcon from "../../../icons/techs/ChromeIcon"
 import DockerIcon from "../../../icons/techs/DockerIcon"
@@ -51,6 +52,10 @@ function SkillCat_BackDevTools() {
           {
             skillName: "OpenAPI Spec.",
             skillIcon: () => <OpenAPIIcon className="w-4.5" />,
+          },
+          {
+            skillName: "AsyncAPI Spec.",
+            skillIcon: () => <AsyncAPIIcon className="w-4.5" />,
           },
           {
             skillName: "VSCode",
