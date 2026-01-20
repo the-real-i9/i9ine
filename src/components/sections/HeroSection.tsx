@@ -6,10 +6,10 @@ import HeroBrushCogTL from "../icons/HeroBrushCogTL"
 import HeroBrushCogTR from "../icons/HeroBrushCogTR"
 
 function HeroSection() {
-  const [bgVideoPlaying, setBgVideoPlaying] = useState(true)
+  const [bgCarouselPlaying, setBgCarouselPlaying] = useState(true)
 
   return (
-    <section className="w-full relative h-screen max-w-[1600px] max-h-[900px] mx-auto bg-[url(/bg-video.png)] bg-no-repeat bg-cover bg-center">
+    <section className="w-full relative h-screen max-w-[1600px] max-h-[900px] mx-auto bg-[url(/bg-image.png)] bg-no-repeat bg-cover bg-center">
       <div className="overlay absolute inset-0 bg-bgray-900/85" />
       <HeroBrushCogTL className="absolute top-0 left-0" />
       <HeroBrushCogTR className="absolute top-0 right-0" />
@@ -48,27 +48,26 @@ function HeroSection() {
             onClick={() => {
               window.open("mailto:oluwarinolasam@gmail.com", "_blank")
             }}
-            title="Let's get right into it. Describe your problem, constraints, and goals."
-            className="font-bold text-sm w-[225px] h-[60px] bg-bgray-900/60 bg-[url(/gbord.svg)] bg-no-repeat bg-contain bg-center rounded-full"
+            className="font-bold w-[225px] h-[60px] bg-bgray-900/60 bg-[url(/gbord.svg)] bg-no-repeat bg-contain bg-center rounded-full"
           >
-            Describe your problem.
+            Download CV.
           </button>
         </div>
 
         <div className="absolute bottom-9 self-start">
           <div className="bg-bgray-900/20 rounded-full flex items-center space-x-2 p-1 pr-6">
             <button
-              onClick={() => setBgVideoPlaying((v) => !v)}
+              onClick={() => setBgCarouselPlaying((v) => !v)}
               className="bg-bgray-700 bg-[url(/ppbord.svg)] bg-no-repeat bg-contain bg-center rounded-full w-[30px] h-[30px]"
             >
-              {bgVideoPlaying ? (
+              {bgCarouselPlaying ? (
                 <PauseIcon className="fill-white w-3 aspect-square mx-auto" />
               ) : (
                 <PlayIcon className="fill-white w-3 aspect-square mx-auto" />
               )}
             </button>
             <div className="text-sm text-bgray-100">
-              <strong>Now playing:</strong> Implementing a reply message
+              <strong>Now showing:</strong> Implementing a reply message
               feature.
             </div>
           </div>

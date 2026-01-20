@@ -6,6 +6,7 @@ import SkillsSection from "./components/sections/skills/SkillsSection"
 import VideosSection from "./components/sections/videos/VideosSection"
 import WebsiteFooter from "./components/WebsiteFooter"
 import WebsiteHeader from "./components/WebsiteHeader"
+import PodcastsSection from "./components/sections/podcasts/PodcastsSection"
 
 function App() {
   useEffect(() => {
@@ -52,6 +53,7 @@ function App() {
         <ProjectsSection />
         <SkillsSection />
         <VideosSection />
+        <PodcastsSection />
       </main>
       <WebsiteFooter />
     </>

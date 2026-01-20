@@ -27,7 +27,7 @@ function SkillCat_Databases() {
             skillIcon: () => <Neo4jIcon className="w-7" />,
           },
           {
-            skillName: "Redis (PubSub, Stream, Queue)",
+            skillName: "Redis (Pub/Sub, Streams, Queue [LPOP/RPUSH])",
             skillIcon: () => <RedisIcon className="w-5" />,
           },
           {

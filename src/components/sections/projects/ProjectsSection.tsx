@@ -1,6 +1,6 @@
 import SectionHeader from "../../SectionHeader"
 import ProjectCard from "./ProjectCard"
-import dummyImg from "/bg-video.png"
+import dummyImg from "/bg-image.png"
 import i9lfethumb from "../../../assets/imgs/i9lyfe-thumb.png"
 
 function ProjectsSection() {
