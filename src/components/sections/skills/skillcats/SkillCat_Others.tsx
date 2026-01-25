@@ -15,6 +15,9 @@ function SkillCat_Others() {
             skillName: "Problem Solving",
           },
           {
+            skillName: "Analytical Skills",
+          },
+          {
             skillName: "Product Thinking",
           },
           {
@@ -25,6 +28,9 @@ function SkillCat_Others() {
           },
           {
             skillName: "Graphics Design (Theory & Practice)",
+          },
+          {
+            skillName: "Touch Typing (>60WPM)",
           },
         ].map(({ skillName }, index) => (
           <SkillSnippet

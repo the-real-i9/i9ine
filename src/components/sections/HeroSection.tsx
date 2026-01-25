@@ -4,6 +4,7 @@ import PauseIcon from "../icons/PauseIcon"
 import PlayIcon from "../icons/PlayIcon"
 import HeroBrushCogTL from "../icons/HeroBrushCogTL"
 import HeroBrushCogTR from "../icons/HeroBrushCogTR"
+import i9CVPdf from "/i9ine-CV.pdf"
 
 function HeroSection() {
   const [bgCarouselPlaying, setBgCarouselPlaying] = useState(true)
@@ -36,7 +37,7 @@ function HeroSection() {
           <button
             title="Let's talk."
             onClick={() => {
-              window.open("https://wa.me/+2348106545254", "_blank")
+              window.open("https://wa.me/+2347068284236", "_blank")
             }}
             className="group getintouch font-bold w-[225px] h-[60px] bg-bgray-700 rounded-full shadow-[0px_4px_4px] shadow-black/25"
           >
@@ -44,14 +45,11 @@ function HeroSection() {
               Get in touch.
             </span>
           </button>
-          <button
-            onClick={() => {
-              window.open("mailto:oluwarinolasam@gmail.com", "_blank")
-            }}
-            className="font-bold w-[225px] h-[60px] bg-bgray-900/60 bg-[url(/gbord.svg)] bg-no-repeat bg-contain bg-center rounded-full"
-          >
-            Download CV.
-          </button>
+          <a href={i9CVPdf} target="_blank" download={true}>
+            <button className="font-bold w-[225px] h-[60px] bg-bgray-900/60 bg-[url(/gbord.svg)] bg-no-repeat bg-contain bg-center rounded-full">
+              Download CV.
+            </button>
+          </a>
         </div>
 
         <div className="absolute bottom-9 self-start">
@@ -67,8 +65,8 @@ function HeroSection() {
               )}
             </button>
             <div className="text-sm text-bgray-100">
-              <strong>Now showing:</strong> Implementing a reply message
-              feature.
+              <strong>Now showing:</strong> A Cypher query implementing a reply
+              to message.
             </div>
           </div>
         </div>

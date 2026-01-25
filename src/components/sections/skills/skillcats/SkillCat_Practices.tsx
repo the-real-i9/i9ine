@@ -24,7 +24,7 @@ function SkillCat_Practices() {
             skillName: "Web Integration",
           },
           {
-            skillName: "Logging and Monitoring",
+            skillName: "Debugging",
           },
         ].map(({ skillName }, index) => (
           <SkillSnippet
