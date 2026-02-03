@@ -1,6 +1,5 @@
 import GitHubIcon from "./icons/socials/GitHubIcon"
 import LinkedinIcon from "./icons/socials/LinkedinIcon"
-import XIcon from "./icons/socials/XIcon"
 
 function WebsiteFooter() {
   return (
@@ -16,9 +15,6 @@ function WebsiteFooter() {
           </a>
           <a href="https://linkedin.com/in/samueli9ine" className="group">
             <LinkedinIcon className="w-5 fill-black group-hover:fill-bgray-300" />
-          </a>
-          <a href="https://x.com" className="group">
-            <XIcon className="w-5 fill-black group-hover:fill-bgray-300" />
           </a>
         </div>
       </div>
