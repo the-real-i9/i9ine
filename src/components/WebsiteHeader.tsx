@@ -17,8 +17,8 @@ function WebsiteHeader() {
             { href: "#about", name: "About" },
             { href: "#projects", name: "Projects" },
             { href: "#skills", name: "Skills" },
-            { href: "#videos", name: "Videos" },
-            { href: "#podcasts", name: "Podcasts" },
+            // { href: "#videos", name: "Videos" },
+            // { href: "#podcasts", name: "Podcasts" },
           ].map(({ href, name }) => (
             <a
               key={`nav-${href}`}

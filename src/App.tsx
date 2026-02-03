@@ -3,10 +3,10 @@ import AboutSection from "./components/sections/AboutSection"
 import HeroSection from "./components/sections/HeroSection"
 import ProjectsSection from "./components/sections/projects/ProjectsSection"
 import SkillsSection from "./components/sections/skills/SkillsSection"
-import VideosSection from "./components/sections/videos/VideosSection"
+// import VideosSection from "./components/sections/videos/VideosSection"
 import WebsiteFooter from "./components/WebsiteFooter"
 import WebsiteHeader from "./components/WebsiteHeader"
-import PodcastsSection from "./components/sections/podcasts/PodcastsSection"
+// import PodcastsSection from "./components/sections/podcasts/PodcastsSection"
 
 function App() {
   useEffect(() => {
@@ -52,8 +52,8 @@ function App() {
         <AboutSection />
         <ProjectsSection />
         <SkillsSection />
-        <VideosSection />
-        <PodcastsSection />
+        {/* <VideosSection /> */}
+        {/* <PodcastsSection /> */}
       </main>
       <WebsiteFooter />
     </>
