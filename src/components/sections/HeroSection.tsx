@@ -37,7 +37,7 @@ function HeroSection() {
           <button
             title="Let's talk."
             onClick={() => {
-              window.open("https://wa.me/+2347068284236", "_blank")
+              window.open("https://wa.me/+2348106545254", "_blank")
             }}
             className="group getintouch font-bold w-[225px] h-[60px] bg-bgray-700 rounded-full shadow-[0px_4px_4px] shadow-black/25"
           >

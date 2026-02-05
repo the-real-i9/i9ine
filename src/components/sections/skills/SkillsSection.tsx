@@ -10,7 +10,7 @@ import SkillCat_Frontend from "./skillcats/SkillCat_Frontend"
 
 function SkillsSection() {
   return (
-    <section id="skills" className="w-full pt-24 pb-9">
+    <section id="skills" className="w-full pt-24 pb-16">
       <div className="w-full max-w-7xl mx-auto px-6">
         <SectionHeader title="Skills" className="mb-26" />
 
