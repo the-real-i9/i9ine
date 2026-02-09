@@ -23,15 +23,23 @@ function AboutSection() {
             </p>
             <br />
             <p>
-              A software engineer who enjoys building backend systems that solve
-              real-world problems and serve real-world purposes. Most of my work
-              revolves around backend architecture design, the problem-domain
-              algorithms, data flow, and the kind of engineering that rewards
-              clarity and careful thinking. I work with Go and
-              JavaScript/Node.js, and I spend a significant amount of time
-              optimizing APIs for performance, scalability, edge cases, and user
-              experience, ensuring robustness under real-world constraints and
-              helping businesses generate measurable value.
+              A software engineer who enjoys building backends that solve
+              real-world problems and serve real-world purposes.
+            </p>
+            <br />
+            <p>
+              Backend Engineer focused on building high-performance APIs,
+              services, and systems involving design, domain logic, and
+              algorithmic problem-solving to address real-world problems while
+              meeting both user and business demands.
+            </p>
+            <br />
+            <p>
+              Experienced in building complex APIs, real-time communication
+              systems, and data-intensive backend services using Go and Node.js.
+              Skilled at translating the real-world into efficient data models,
+              optimizing performance, and designing clean paths through
+              technical complexity.
             </p>
             <br />
             <p>
@@ -39,31 +47,20 @@ function AboutSection() {
               including a feature-rich social media API, a full-fledged
               real-time chat system, and a remote file system built with Neo4j
               and GCS, similar in structure to Instagram, WhatsApp, and Google
-              Drive, respectively, all constantly undergoing feature
-              improvements and performance tuning. As a hobby, I also explore
-              system foundations and internals with C.
-            </p>
-            <br />
-            <p>
-              I enjoy projects that allow me to apply generic or domain-specific
-              algorithms to solve real-world problems, challenge me to think
-              about how to design or re-design a solution to meet specific user
-              or business demands, and sometimes allow me to explore and
-              understand real-world domains outside of my own field
-              {readMore ? "." : "..."}
+              Drive respectively, all constantly undergoing feature improvements
+              and performance tuning. As a hobby, I also explore system
+              foundations and internals with C{readMore ? "." : "..."}
             </p>
             <br />
             {readMore && (
               <>
                 <p>
-                  My long-term direction is independent engineering and
-                  consulting. I like sitting with people, understanding the
-                  problems they&#x2019;re facing, and designing the software
-                  paths that can solve them. Whether it&#x2019;s a backend
-                  architecture, a performance bottleneck, a data-modeling
-                  challenge, or a system that needs to be built from the ground
-                  up, I&#x2019;m interested in the work that turns ideas into
-                  functioning systems.
+                  I enjoy projects that allow me to apply generic or
+                  domain-specific algorithms to solve real-world problems,
+                  challenge me to think about how to design or re-design a
+                  system to meet specific user or business demands, and
+                  sometimes allow me to explore and understand real-world
+                  domains outside of my own field.
                 </p>
                 <br />
                 <p>
